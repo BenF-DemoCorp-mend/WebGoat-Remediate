@@ -1,5 +1,5 @@
 {
-  "settingsInheritedFrom": "myorganization/whitesource-config@main",
+ "settingsInheritedFrom": "BenF-DemoCorp-mend/whitesource-config@main",
   "remediateSettings": {
     "workflowRules": {
       "enabled": false

@@ -36,3 +36,5 @@ ENTRYPOINT [ "java", \
    "-Dwebgoat.port=8080", \
    "-Dwebwolf.port=9090", \
    "-jar", "webgoat.jar" ]
+
+

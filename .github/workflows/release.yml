@@ -52,3 +52,5 @@ jobs:
             ${{ secrets.DOCKERHUB_USERNAME }}/javademo:latest
           build-args: |
             webgoat_version=${{ env.WEBGOAT_MAVEN_VERSION }}
+
+            

@@ -4,6 +4,14 @@
     "workflowRules": {
       "enabled": false
     },
+    "releaseBranchSettings" : {
+    "checkRunSettings": {
+    "showWsInfo" : true, 
+    "failOnLicenseViolation" : false,
+    "failOnIacFindings" : false,
+    "strictMode" : "none"
+    },
+  },
     "enableRenovate": true,
     "extends": [
        "config:base",

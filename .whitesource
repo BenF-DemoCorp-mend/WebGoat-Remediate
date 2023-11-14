@@ -13,11 +13,11 @@
     "releaseBranches": ["v2023.4\\/.*"]
     },
     "releaseBranchSettings" : {
-    "checkRunSettings": {
-    "showWsInfo" : true, 
-    "failOnLicenseViolation" : false,
-    "failOnIacFindings" : false,
-    "strictMode" : "none"
+     "checkRunSettings": {
+      "showWsInfo" : true, 
+      "failOnLicenseViolation" : false,
+      "failOnIacFindings" : false,
+      "strictMode" : "none"
     },
     "enableRenovate": true,
     "extends": [

@@ -4,6 +4,21 @@
     "workflowRules": {
       "enabled": false
     },
+    "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "enableReachability": true,
+    "enableLicenseViolations": true,
+    "baseBranches": [],
+    "releaseBranches": ["v2023.4\\/.*"]
+    },
+    "releaseBranchSettings" : {
+    "checkRunSettings": {
+    "showWsInfo" : true, 
+    "failOnLicenseViolation" : false,
+    "failOnIacFindings" : false,
+    "strictMode" : "none"
+    },
     "enableRenovate": true,
     "extends": [
        "config:base",
@@ -11,4 +26,8 @@
        "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
       ]
   }
+ }
 }
+
+
+

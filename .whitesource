@@ -4,6 +4,14 @@
     "workflowRules": {
       "enabled": false
     },
+    "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "enableReachability": true,
+    "enableLicenseViolations": true,
+    "baseBranches": [],
+    "releaseBranches": ["v2023.4\\/.*"]
+    },
     "releaseBranchSettings" : {
     "checkRunSettings": {
     "showWsInfo" : true, 

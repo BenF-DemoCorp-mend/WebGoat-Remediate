@@ -21,7 +21,8 @@
     "strictMode" : "none"
     },
     "enableRenovate": true,
-     "extends": ["mergeConfidence:all-badges"]
+     "extends": ["mergeConfidence:all-badges"],
+     "separateMinorPatch": true
   }
  }
 }
